@@ -8,7 +8,13 @@ public class Main {
 
         Network network = new Network();
 
+
         double prediction = network.predict(100, 50);
+
+//        File Testing{
+//        NetworkSave.saveNetwork(network);
+
+
 
 //        End the timer
         double endTime = System.currentTimeMillis();
